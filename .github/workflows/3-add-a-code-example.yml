@@ -50,7 +50,7 @@ jobs:
       - name: Check for code block
         id: check-code-block
         continue-on-error: true
-        uses: skills/action-keyphrase-checker@v1
+        uses: skills/action-keyphrase-checker@v2
         with:
           text-file: day-1.md
           keyphrase: "```"
